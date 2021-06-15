@@ -4,6 +4,14 @@ pipeline {
 		
 		
 		// ******ALL CODE TO BE ADDED BELOW THIS COMMENT******
+               
+                //Code starts for Clean
+                
+                stage('clean') {
+                    steps {
+                      sh 'mvn clean'
+                    }
+                }
 		
 		
 			
